@@ -56,6 +56,7 @@ const sidebars = {
           items: [
             'developer/api/authorization',
             'developer/api/content',
+            'developer/api/menus',
           ],
         },
         'developer/contribute',
