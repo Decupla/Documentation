@@ -35,8 +35,14 @@ const sidebars = {
     {
       type: 'category',
       label: 'User Documentation',
+      link: { type: 'generated-index' },
       items: [
+        'user/blocks',
         'user/content',
+        'user/menus',
+        'user/media',
+        'user/roles',
+        'user/settings'
       ],
       collapsible: false
     },
@@ -59,6 +65,7 @@ const sidebars = {
             'developer/api/menus',
           ],
         },
+        'developer/integration',
         'developer/contribute',
       ],
       collapsible: false

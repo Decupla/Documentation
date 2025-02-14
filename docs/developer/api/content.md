@@ -86,3 +86,9 @@ This endpoint returns an array of all created content.
 ```
 
 This endpoint returns a single content based on the provided ID. If the content is found, it responds with a single object and HTTP status `200 OK`. If no content is found, it returns an error message with HTTP status `404 Not Found`.
+
+```
+/api/content/start
+```
+
+This endpoint retrieves the content designated as the start content. If no start content is set or the specified content has been deleted, it responds with an error message and HTTP status `404 Not Found`. If the start content exists, it returns the content as a single object and HTTP status `200 OK`.

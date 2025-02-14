@@ -21,7 +21,7 @@ const FeatureList = [
   {
     title: 'User Documentation',
     image: ContentManagementImg,
-    link: '/docs/user',
+    link: '/docs/category/user-documentation',
     imageWidth: "40%",
     description: (
       <>

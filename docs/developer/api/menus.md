@@ -19,6 +19,7 @@ Each menu entry is represented as a separate object with the following fields:
 | contentID | The unique ID of the content the menu entry refers to. |
 | priority | Defines the order in which the entry are meant to appear in the menu. Entries with lower values are displayed first. For example, an entry with priority 1 is displayed first, while an entry with a higher priority (e.g., 8) appears later. Entries are sorted by priority by default. |
 | title | The title of the menu entry, intended for display in the menu. |
+| url | The url of the content. |
 
 <details>
   <summary>Show JSON structure example</summary>
