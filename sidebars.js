@@ -65,8 +65,7 @@ const sidebars = {
             'developer/api/menus',
           ],
         },
-        'developer/integration',
-        'developer/contribute',
+        'developer/integration'
       ],
       collapsible: false
     },

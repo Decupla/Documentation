@@ -112,41 +112,69 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Developer Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Setup',
+                to: '/docs/developer/setup',
               },
+              {
+                label: 'API - Authorization',
+                to: '/docs/developer/api/authorization',
+              },
+              {
+                label: 'API - Content',
+                to: '/docs/developer/api/content',
+              },
+              {
+                label: 'API - Menus',
+                to: '/docs/developer/api/menus',
+              },
+              {
+                label: 'User & Roles',
+                to: '/docs/user/roles',
+              },
+              {
+                label: 'Settings',
+                to: '/docs/user/settings',
+              }
             ],
           },
           {
-            title: 'Community',
+            title: 'User Docs',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Blocks',
+                to: '/docs/user/blocks',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Content',
+                to: '/docs/user/content',
               },
               {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'Menus',
+                to: '/docs/user/menus',
               },
+              {
+                label: 'Media Library',
+                to: '/docs/user/media',
+              },
+              {
+                label: 'User & Roles',
+                to: '/docs/user/roles',
+              },
+              {
+                label: 'Settings',
+                to: '/docs/user/settings',
+              }
             ],
           },
           {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Decupla/Documentation',
               },
             ],
           },
